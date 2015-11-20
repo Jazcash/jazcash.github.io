@@ -1,0 +1,36 @@
+Web Designer Brief
+
+Task
+Build a working prototype of a landing page, that could be used for user testing sessions /  to gain feedback on the UX & UI. 
+
+Detailed overview
+Vasanta are introducing a new product ‘Tune-ify’ for a new digital product range. The add-on prioritises streaming music and video traffic and provides users with a media streaming service and 60Gb of online shared media storage. The intention is for this to be used as a media repository allowing the user to stream their personal music collection to any Internet connected device (e.g. PC, TV, mobile phone, tablet, car audio player). 
+
+The product features are:
+
+•	Prioritisation of all streaming media traffic
+•	Personal media streaming server solution
+•	60GB of online storage space 
+•	User’s can pay for extra storage at £1 extra per 5GB
+•	Secure access controls
+•	Parental controls
+
+The add-on is available to all Vasanta customers new and existing, costing
+£5 a month extra.
+
+It must also be clear for each type of user (existing and new) how they can buy the product.
+
+Build Spec
+Using any of the supplied assets and creating any other new assets you deem suitable, you should build the page to be cross-browser compatible with the following browsers:
+
+IE6 –10
+Firefox (latest version) v36
+Google Chrome (latest version)
+Safari (latest version)
+
+Feel free to use CSS3 features and a JavaScript library of your choice and comment code to explain browser workarounds where appropriate. 
+
+Keep in mind this should make the use of responsive design for this build where possible and render correct for small-form/mobile/tablet devices.
+
+Please note:
+You should spend no longer than 6 hours in total on this task. We’re not looking for a polished design (however you can polish if you wish to), just a rough concept, but with attention to the build.

@@ -1,0 +1,25 @@
+Th entire UX / UI strategy I went for was a minimal design with heavy use of white-space on large viewports which shrinks as the viewport gets smaller.
+
+- I started out with some sketches on paper just to get a rough idea of the basic layout of the page.
+
+- I then took to Fireworks to build a mockup of the page. This mockup let me experient with different white-space, font faces, sizes, colours and general positioning to ensure I didn't spend the coding phase still doing design. The mockup attached includes a custom logo and icons but these were added after the design was implemented.
+
+- Before implementing the design, I made sure I had Firefox, Chrome and IE6 available for quick-testing. Safari was a problem as Apple stopped supporting the Windows build a couple of years ago. However, as Safari also uses webkit for rendering I did not consider this a huge problem and knew I could text it in a virtual platform afterwards.
+
+- Before beginning, I knew I would probably need Javascript at some point to work-around old browser rendering issues, although, I wanted to minimise my use of JS as much as possible due to it impacting load times and causing issues on non-JS or minimal-JS platforms such as some mobile browsers. Surprisingly, I always managed to find a CSS-only solution which means the whole page is JS-free! The only exception is the single, inline IE expression used to set the max-width of the layout as IE6  doesn't support max-width.
+
+- After a lot of battling with IE6 I eventually managed to get the whole page responsive with all browsers on all platforms without any real loss of appearance or functionality anywhere. I found I didn't even need to use media-queries in the end as the default viewport scaling didn't seem to degrade overall appearance at all. There was some white-space above and below the feature images when viewed in a very small viewport, although, I felt that moving the images above or below the feature text might make the page too 'scrolly'. Perhaps a better solution would have been to remove the images completely from a very small viewport.
+
+- When I finished and was happy with the outcome I spent a while making some custom feature images and a logo just for fun. I added some CSS3 text-shadows on some of the text and gave the buy button at the bottom an animated hover effect.
+
+- It said in the spec: "It must also be clear for each type of user (existing and new) how they can buy the product".
+I thought about this and came to the conclusion that the button to buy Tune-ify should be the same button for both existing and new customers and that new customers would simply be redirected to a Vasanta account creation page prior to the purchase procedure actually taking place. This would mostly be handled server-side and would check to see if the viewer is actually logged into a Vasanta account or not.
+
+- Not being able to resize images via max-width/max-height percentages in CSS can cause some annoying horizontal scrollbars in IE6 if the browser is shrunk too small. In hindsight, I should have written a small JS snippet just to deal with this problem.
+
+- I used http://www.browserstack.com/screenshots for generating the browser screenshots
+
+
+I ended up spending roughly an hour on the sketches and mockup, then the rest of the time on the implementation with some of my spare time spent just making the logo and feature icons. I did a bit of polishing like the button animation afterwards too.
+
+Overall I was quite happy with the design and hope you like it too!
